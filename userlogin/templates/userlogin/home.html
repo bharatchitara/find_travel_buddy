@@ -26,7 +26,7 @@
        <div class = "flex-container tb_home_flex_container">
             <div class = "container tb_home_main_container">
                 <!--header row-starts-->
-                <div class = "row justify-content-center">
+                <div class = "row justify-content-center tb_home_div_main_header">
                     <div class="col-md-6">
                         <div class="text-center tb_home_header_text">
                             Find Travel Buddy
@@ -36,23 +36,24 @@
                 </div>
                 <!--header row-ends-->
 
-                <div class = "row justify-content-center">
+                <!--body row-starts-->
+                <div class = "row justify-content-center tb_home_div_main_body">
                     <div class = "col-md-6">
 
                         <div class="card p-4 text-center tb_home_number_input_card">
-                            <h5>Verify Your Mobile Number</h5>
+                            <h5>Log in or sign up</h5>
                             <form>
                                 <div class="form-group row tb_home_mobile_input">
-                                    <div class="col-sm-4">
-                                        <label for="countryCode">Country Code</label>
+                                    <div class="col-sm-3">
                                         <select class="form-control" id="countryCode">
-                                            <option value="IN">IND (+91)</option>
+                                            <option value="IND">IND (+91)</option>
+                                            <option value="US">US (+1)</option>
+                                            <option value="UK">UK (+44)</option>
                                             <!-- Add more country options here -->
                                         </select>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <label for="phoneNumber">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
+                                    <div class="col-sm-9">
+                                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number">
                                     </div>
 
                                     <div class = "justify-content-center tb_home_div_send_otp">
@@ -72,6 +73,12 @@
                                         <input class="m-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" />
                                         <input class="m-2 text-center form-control rounded" type="text" id="sixth" maxlength="1" />
                                     </div>
+                                    <div class = 'tb_home_msg_invalid_otp_err'>
+                                        Invalid OTP entered.
+                                    </div>
+                                    <div class = 'tb_home_msg_resent_otp_wrn'>
+                                        OTP Resent successfully.
+                                    </div>
                                     <div class = "justify-content-center tb_home_div_verify_otp">
                                         <p>Didn't receive the code <a href="resend_otp" class = "tb_home_resend_otp_link" >Re-send</a></p>
 
@@ -84,6 +91,15 @@
 
                     </div>
                 </div>
+                <!--body row-ends-->
+
+                <!--footer row-starts-->
+                <div class = "row justify-content-center tb_home_div_main_footer">
+                    <p><a href = "">@copyright 2024</a></p>
+                    <p><a href = "dev_info">Developer Info</a></p>
+                    <p><a href = "contact_us">Contact Us</a></p>
+                </div>
+                <!--footer row-ends-->
             </div>
         </div>
 
