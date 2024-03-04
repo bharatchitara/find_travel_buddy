@@ -1,0 +1,46 @@
+.tb_home_flex_container{
+    background-color: #1f2837 ;
+    color: #ffffff;
+}
+
+.tb_home_main_container{
+    border: 1px solid blue;
+    /* background-color: #1f2837 ; */
+}
+
+.tb_home_header_text{
+    border: 1px solid red;
+    font-size: 2.5em;
+}
+
+.tb_home_subheader{
+    color: #636a78;
+}
+.tb_home_number_input_card{
+    margin-top: 10em;
+    color: #444444;
+}
+
+.tb_home_mobile_input{
+    margin-top: 2em;
+}
+
+.tb_home_div_send_otp{
+    margin-top: 2em;
+}
+
+.tb_home_btn_send_otp{
+
+}
+
+.tb_home_div_verify_otp{
+    margin-top: 1em;
+}
+
+.tb_home_otp_input{
+    border: 1px solid red;
+}
+
+.tb_home_resend_otp_link{
+
+}
