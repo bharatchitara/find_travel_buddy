@@ -1,3 +1,11 @@
+.tb_home_full_page{
+    background-color: #1f2837 ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
 .tb_home_flex_container{
     background-color: #1f2837 ;
     color: #ffffff;
@@ -5,7 +13,6 @@
 
 .tb_home_main_container{
     border: 1px solid blue;
-    /* background-color: #1f2837 ; */
 }
 
 .tb_home_header_text{
@@ -17,9 +24,8 @@
     color: #636a78;
 }
 .tb_home_number_input_card{
-    margin-top: 8em;
     color: #444444;
-    margin-bottom: 6em;
+    min-height: 20em;
 }
 
 .tb_home_mobile_input{
@@ -47,7 +53,9 @@
 }
 
 .tb_home_div_main_body{
-   
+    border: 1px solid mediumspringgreen;
+    min-height: fit-content;
+    height: 46.7em;
 }
 
 .tb_home_div_main_footer{
