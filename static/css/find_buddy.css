@@ -1,0 +1,11 @@
+.tb_find_buddy_div_main_body{
+    border: 1px solid mediumspringgreen;
+    min-height: fit-content;
+    height: 46.7em;
+}
+
+.db_find_buddy_main_container{
+    max-width: 1550px !important;
+    width: 1550px;
+
+}

@@ -25,7 +25,8 @@
 }
 .tb_home_number_input_card{
     color: #444444;
-    min-height: 20em;
+    min-height: 14em;
+    margin-top: 7em;
 }
 
 .tb_home_mobile_input{
@@ -45,6 +46,9 @@
 }
 
 .tb_home_otp_input{
+    /* initially the display will be none for this property*/
+    /*this will be enable once the ajax fucntion is called */
+    display: none;
     border: 1px solid red;
 }
 
@@ -72,9 +76,13 @@
 }
 
 .tb_home_msg_invalid_otp_err{
+    /* initially the display will be none for this property*/
     color: #FF0000;
+    display: none;
 }
 
 .tb_home_msg_resent_otp_wrn{
+    /* initially the display will be none for this property*/
+    display: none;
 
 }
