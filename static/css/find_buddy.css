@@ -1,11 +1,49 @@
 .tb_find_buddy_div_main_body{
     border: 1px solid mediumspringgreen;
     min-height: fit-content;
-    height: 46.7em;
+    height: 45em;
 }
 
-.db_find_buddy_main_container{
+.tb_find_buddy_main_container{
     max-width: 1550px !important;
     width: 1550px;
 
+}
+
+.tb_find_buddy_navbar{  
+}
+
+
+.tb_find_buddy_navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tb_find_buddy_navbar li {
+    float: right;
+    border-right: 1px solid #fff;
+}
+
+.tb_find_buddy_profile_li_tag{
+    border-right: none !important;
+}
+
+
+.tb_find_buddy_navbar a:link,
+.tb_find_buddy_navbar a:visited {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tb_find_buddy_navbar a:hover, 
+.tb_find_buddy_navbar a:active {
+    background-color: #636a78;
 }
