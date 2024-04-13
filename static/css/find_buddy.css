@@ -1,5 +1,4 @@
 .tb_find_buddy_div_main_body{
-    border: 1px solid mediumspringgreen;
     min-height: fit-content;
     height: 45em;
 }
@@ -46,4 +45,66 @@
 .tb_find_buddy_navbar a:hover, 
 .tb_find_buddy_navbar a:active {
     background-color: #636a78;
+}
+
+.tb_find_buddy_gmaps{
+    border: 1px solid red;
+    width: 70% !important;
+}
+
+.tb_find_buddy_search_filters{
+    width: 30% !important;
+    border: 1px solid #636a78;
+    border-radius: 0.6em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+}
+
+.tb_selection_options{
+    margin-top: 2em;
+}
+
+.tb_find_buddy_search_area_drp{
+    border: 2px solid #636a78;
+    border-radius: 0.6em;
+    padding: 0.5em 0.5em 1.0em 0.5em;
+}
+
+#tfb_search_area{
+    width: 15em;
+    float: right;
+    display: inline-block !important;
+}
+
+.tfb_find_by_area_div, .tfb_find_by_vehicle_div {
+    margin-bottom: 2em;
+}
+
+#tfb_find_by_area_drp{
+    display: inline-block;
+    float: right;
+    width: 15em;
+}
+
+#tfb_find_by_vehicle_drp{
+    display: inline-block;
+    float: right;
+    width: 15em;
+}
+
+#tfb_find_by_distance_drp{
+    display: inline-block;
+    float: right;
+    width: 15em;
+}
+
+.tb_find_buddy_search_filters_categories{
+    border: 2px solid #636a78;
+    border-radius: 0.6em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+}
+
+.tb_find_buddy_sort_categories{
+    border: 2px solid #636a78;
+    border-radius: 0.6em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }

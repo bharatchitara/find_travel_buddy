@@ -49,6 +49,80 @@
 
                 <!--body row-starts-->
                 <div class = "row justify-content-center tb_find_buddy_div_main_body">
+                    <div class = "row">
+                        <div class = "tb_find_buddy_gmaps">
+                        </div>
+                        <div class= "tb_find_buddy_search_filters">
+                            <form method="post" id="work_order_form">
+
+                                <div class="tb_selection_options">
+                                    
+                                    <!-- find buddy search options- starts-->
+                                    <div class = "tb_find_buddy_search_area_drp">
+                                        <label for="tfb_search_area">Search Area: &nbsp;&nbsp; </label>
+                                        <select name="tfb_search_area" class="form-select" id="tfb_search_area" tabindex="-98">
+                                            <option value="area0" selected>---------</option>
+                                            <option value="Thoraipakkam">Thoraipakkam</option>
+                                            <option value="Pereungudi">Pereungudi</option>
+                                            <option value="Padur">Padur</option>
+                                        </select>
+                                    </div>
+                                    <!-- find buddy search options- end-->
+                                    
+                                    <br>
+                                    <!-- find buddy filter options- starts-->
+                                    <div class = "tb_find_buddy_search_filters_categories">
+                                        <p>Filters:- </p>
+                                        <div class = "tfb_find_by_area_div">
+                                            <label for="tfb_find_by_area_drp">Find by Area: &nbsp;&nbsp;</label>
+                                            <select name="tfb_find_by_area_drp" class="form-select" id="tfb_find_by_area_drp" tabindex="-98">
+                                                <option value="area0" selected>---------</option>
+                                                <option value="Thoraipakkam">Thoraipakkam</option>
+                                                <option value="Pereungudi">Pereungudi</option>
+                                                <option value="Padur">Padur</option>
+                                            </select>
+                                        </div>
+                                        <div class = "tfb_find_by_vehicle_div">
+                                            <label for="tfb_find_by_vehicle_drp">Find by Vehicle: &nbsp;&nbsp;</label>
+                                            <select name="tfb_find_by_vehicle_drp" class="form-select" id="tfb_find_by_vehicle_drp" tabindex="-98">
+                                                <option value="vehicle0" selected>---------</option>
+                                                <option value="Car">Car</option>
+                                                <option value="Bike">Bike</option>
+                                            </select>
+                                        </div>
+                                        <div class = "tfb_find_by_distance_div">
+                                            <label for="tfb_find_by_distance_drp">Find by Distance: &nbsp;&nbsp;</label>
+                                            <select name="tfb_find_by_distance_drp" class="form-select" id="tfb_find_by_distance_drp" tabindex="-98">
+                                                <option value="0km" selected>---------</option>
+                                                <option value="3km">Within 3 KM</option>
+                                                <option value="5km">Within 5 KM</option>
+                                                <option value="unseleted">Show All</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- find buddy filter options- end-->
+                                    
+                                    <br>
+                                    <!-- find buddy sorting options- starts-->
+                                    <div class = "tb_find_buddy_sort_categories">
+                                        <p>Sort By:- </p>
+                                        <div class = "tfb_sort_options">
+                                            <div class="form-check">
+                                                <input class="nearest_first" type="radio" name="tfb_proximity_sorting" id="nearest_first" checked>
+                                                <label class="nearest_first" for="nearest_first">Show Nearest First</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="far_first" type="radio" name="tfb_proximity_sorting" id="far_first">
+                                                <label class="far_first" for="far_first">Show Farthest First</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- find buddy sorting options- end-->
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 
                 <!--body row-ends-->
