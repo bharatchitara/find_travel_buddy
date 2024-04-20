@@ -1,0 +1,30 @@
+.tb_reg_buddy_div_main_body{
+    min-height: fit-content;
+    height: 45em;
+    border: 1px solid red;
+}
+
+.tb_reg_buddy_otp_input{
+    /* initially the display will be none for this property*/
+    /*this will be enable once the ajax fucntion is called */
+    display: none;
+    padding-top: 2em;
+    border: 1px solid red;
+}
+
+
+.tb_reg_buddy_agree_text p{
+    font-size: 0.8em;
+    color: grey; 
+    float: left;
+    width: fit-content !important;
+    padding-right: 3em;
+
+}
+
+
+.tb_reg_buddy_agree_text .agree_text_check{
+    width: fit-content;
+    margin-top: -0.9em;
+    margin-left: 1.6em;
+}

@@ -10,6 +10,7 @@ from . import views
 urlpatterns = [
     path('',views.index, name= 'user_login'),
     path('find_buddy',views.find_buddy,name= 'find_buddy'),
+    path('register_buddy',views.register_buddy,name= 'register_buddy'),
 ]
 
 
